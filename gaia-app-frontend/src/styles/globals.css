@@ -15,13 +15,39 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+*/
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #F1F1F1;
+  ;
+}
+
+nav {
+  background-color: #1E1E1E;
+  flex-direction: row;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.carousel-main {
+  position: relative;
+  width: 60vh;
+  height: 60vh;
+  object-fit: contain;
+}
+/* 
+.carousel-img {
+  object-fit: contain;
 } */
+
+.carouseltxt-main {
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0.3);
+  bottom:0;
+  left:0;
+  width: 100%;
+}
